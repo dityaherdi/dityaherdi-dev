@@ -4,6 +4,11 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 
+import UIkit from 'uikit'
+import './assets/style/custom-style.less'
+import Icons from 'uikit/dist/js/uikit-icons'
+UIkit.use(Icons)
+
 Vue.config.productionTip = false
 
 new Vue({
