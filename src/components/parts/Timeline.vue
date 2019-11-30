@@ -19,7 +19,7 @@
 <script>
 export default {
   name: 'Timeline',
-  data: () => {
+  data: function () {
     return {
       schools: [
         {
