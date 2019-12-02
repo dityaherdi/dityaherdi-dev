@@ -2,7 +2,7 @@
   <div id="portfolio-modal" class="uk-modal-full" uk-modal>
     <div class="uk-modal-dialog" uk-overflow-auto uk-height-viewport>
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-        <h1>PORTFOLIO</h1>
+        <h1>PORTFOLIO COMING SOON...!</h1>
     </div>
   </div>
 </template>

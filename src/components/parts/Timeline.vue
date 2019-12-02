@@ -24,7 +24,7 @@ export default {
       schools: [
         {
           school: "STMIK STIKOM Bali",
-          type: "University | S1 - in Sistem Informasi",
+          type: "University | S1 - in Information System",
           yearStart: "2015",
           yearEnd: "2019"
         },
