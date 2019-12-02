@@ -15,12 +15,14 @@
                         <h4 class="uk-comment-title uk-margin-remove">
                           <a class="uk-link-reset" :href="exp.url" target="_blank">{{ exp.company }}</a>
                         </h4>
-                        <ul class="uk-comment-meta uk-subnav uk-margin-remove-top">
-                            <li><a href="javascript:void(0)">{{ exp.category }}</a></li>
-                            <li><a href="javascript:void(0)">{{ exp.fromDate }} <span uk-icon="chevron-double-right"></span> {{ exp.toDate }}</a></li>
+                        <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                            <li>
+                              <a href="javascript:void(0)">{{ exp.category }}</a>
+                            </li>
                         </ul>
                     </div>
                 </header>
+                <a class="uk-link-muted" href="javascript:void(0)">{{ exp.fromDate }} <span uk-icon="chevron-double-right"></span> {{ exp.toDate }}</a>
                 <div class="uk-comment-body">
                   <p class="uk-article-meta" style="font-style: italic">{{ exp.position }}</p>
                   <p>{{ exp.desc }}</p>
