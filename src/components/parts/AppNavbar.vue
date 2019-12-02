@@ -1,28 +1,29 @@
 <template>
 <div>
   <!-- NAV -->
-  <div class="uk-position-top">
-    <div class="uk-container uk-container-small">
-      <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
-        <div class="uk-navbar-left">
-          <div class="uk-navbar-item">
-            <a class="uk-logo" href=""><img src="img/dityaherdi.png" alt="dityaherdi"></a>
-          </div>
-        </div>
-        <div class="uk-navbar-right">
+  <div class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+    <div class="uk-navbar-center">
+      <div class="uk-navbar-center-left">
+        <div>
           <ul class="uk-navbar-nav">
-            <li class="uk-active uk-visible@m"><a href="" data-uk-icon="home"></a></li>
-            <li class="uk-visible@s"><a href="">Features</a></li>
-            <li class="uk-visible@s"><a href="">Security</a></li>
-            <li class="uk-visible@s"><a href="">Testimonials</a></li>
             <li><a class="uk-navbar-toggle" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a></li>
           </ul>
         </div>
-      </nav>
+      </div>
+      <a href="" class="uk-navbar-item uk-logo">
+        <img src="img/dityaherdi.png" alt="dityaherdi">
+      </a>
+      <div class="uk-navbar-center-right">
+        <div>
+          <ul class="uk-navbar-nav">
+            <li><a class="uk-navbar-toggle" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
   <!-- /NAV -->
-
+ 
   <OffCanvas />
 </div>
 </template>
