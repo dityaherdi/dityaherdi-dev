@@ -7,9 +7,8 @@
 
       <!-- CONTENT -->
       <div class="uk-container uk-container-small uk-flex-auto uk-text-center" data-uk-scrollspy="target: > .animate; cls: uk-animation-slide-bottom-small uk-invisible; delay: 300">
-
+        <hr>
         <SideIcon />
-
         <img class="uk-border-circle uk-box-shadow-hover-xlarge animate uk-invisible " src="img/ME.jpg" width="200" height="200" alt="No Image">
         <h1 class="uk-heading-primary animate uk-invisible" style="font-weight: 700;">ADITYA HERDINATA PUTRA</h1>
         <div class="uk-width-4-5@m uk-margin-auto animate uk-invisible">
@@ -23,9 +22,10 @@
       <!-- /CONTENT -->
       
     </div>
-      <!-- FOOTER -->
-      <AppFooter />
-      <!-- FOOTER -->
+
+    <!-- FOOTER -->
+    <AppFooter />
+    <!-- FOOTER -->
 
   </div>
 </template>

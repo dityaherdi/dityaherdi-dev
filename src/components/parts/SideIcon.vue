@@ -9,13 +9,17 @@
         <a href="javascript:void(0)" uk-icon="icon: file-edit" @click="showEducationModal"></a>
         <p class="uk-margin-small-top uk-margin-remove-bottom iconav-font-size">Education</p>
       </li>
-      <li>
+      <!-- <li>
         <a href="javascript:void(0)" uk-icon="icon: star" @click="showSoftSkillsModal"></a>
         <p class="uk-margin-small-top uk-margin-remove-bottom iconav-font-size">Soft Skills</p>
       </li>
       <li>
         <a href="javascript:void(0)" uk-icon="icon: receiver" @click="showContactModal"></a>
         <p class="uk-margin-small-top uk-margin-remove-bottom iconav-font-size">Contact</p>
+      </li> -->
+      <li>
+        <a href="javascript:void(0)" uk-icon="icon: quote-right" @click="showMilestonesModal"></a>
+        <p class="uk-margin-small-top uk-margin-remove-bottom iconav-font-size">Milestones</p>
       </li>
     </ul>
     
@@ -32,16 +36,12 @@
         <a href="javascript:void(0)" uk-icon="icon: thumbnails" @click="showPortfolioModal"></a>
         <p class="uk-margin-small-top uk-margin-remove-bottom iconav-font-size">Portfolio</p>
       </li>
-      <li>
-        <a href="javascript:void(0)" uk-icon="icon: quote-right" @click="showMilestonesModal"></a>
-        <p class="uk-margin-small-top uk-margin-remove-bottom iconav-font-size">Milestones</p>
-      </li>
     </ul>
 
     <ProfileModal />
     <EducationModal />
-    <SoftSkillsModal />
-    <ContactModal />
+    <!-- <SoftSkillsModal /> -->
+    <!-- <ContactModal /> -->
     <ExperienceModal />
     <DevToolsModal />
     <PortfolioModal />
@@ -58,8 +58,8 @@ export default {
   components: {
     ProfileModal: () => import('./../modals/ProfileModal'),
     EducationModal: () => import('./../modals/EducationModal'),
-    SoftSkillsModal: () => import('./../modals/SoftSkillsModal'),
-    ContactModal: () => import('./../modals/ContactModal'),
+    // SoftSkillsModal: () => import('./../modals/SoftSkillsModal'),
+    // ContactModal: () => import('./../modals/ContactModal'),
     ExperienceModal: () => import('./../modals/ExperienceModal'),
     DevToolsModal: () => import('./../modals/DevToolsModal'),
     PortfolioModal: () => import('./../modals/PortfolioModal'),
@@ -72,12 +72,12 @@ export default {
     showEducationModal: function () {
       Event.$emit('show:EducationModal')
     },
-    showSoftSkillsModal: function () {
-      Event.$emit('show:SoftSkillsModal')
-    },
-    showContactModal: function () {
-      Event.$emit('show:ContactModal')
-    },
+    // showSoftSkillsModal: function () {
+    //   Event.$emit('show:SoftSkillsModal')
+    // },
+    // showContactModal: function () {
+    //   Event.$emit('show:ContactModal')
+    // },
     showExperienceModal: function () {
       Event.$emit('show:ExperienceModal')
     },
