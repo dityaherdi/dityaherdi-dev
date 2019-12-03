@@ -48,7 +48,7 @@ export default {
         {
           title: 'BUNDA FM (FILE MANAGER)',
           image: 'https://gdurl.com/98m9',
-          desc: 'DREAM (Dokumen Elektronik Rekam Medis) adalah sebuah sistem penyimpanan arsip Rekam Medis Pasien RSIA Puri Bunda. Sistem ini dibuat untuk menyimpan arsip yang berusia 10 Tahun keatas dimana dokumen fisik Rekam Medis Pasien akan di-scan dan di upload pada sistem ini kemudian dilakukan pelenyapan terhadap dokumen fisiknya.',
+          desc: 'BUNDA FM (FILE MANAGER) adalah sebuah sistem yang dibuat untuk mengelola file yang digunakan untuk proses operasional tiap-tiap unit di RSIA Puri Bunda Denpasar. Sistem ini dilengkapi denga fitur pembatasan kapasitas penyimpanan tiap unit, hak akses dan sistem back-up terhadap file yang dihapus tetapi hanya tersedia selama 30 hari setelah penghapusan.',
           url: 'local'
         },
         {
