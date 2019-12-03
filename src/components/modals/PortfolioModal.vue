@@ -12,7 +12,7 @@
                     <img class="uk-border uk-box-shadow-hover-xlarge" width="300" height="300" :src="portf.image" alt="">
                 </a>
                 <p style="font-size: 10pt;">{{ portf.desc }}</p>
-                <button :class="portf.url === 'local' ? 'uk-disabled' : ''" class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">
+                <button @click="gotoPortfolio(index)" :class="portf.url === 'local' ? 'uk-disabled' : ''" class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">
                   {{ portf.url === 'local' ? 'This app only runs locally!' : 'Check it out!' }}
                 </button>
               </div>
@@ -68,6 +68,12 @@ export default {
   },
   components: {
 
+  },
+  methods: {
+    gotoPortfolio: function (index) {
+      const url = this.portfolio[index].url
+      window.open(url, '_blank')
+    }
   },
   created() {
     Event.$on('show:PortfolioModal', () => {
