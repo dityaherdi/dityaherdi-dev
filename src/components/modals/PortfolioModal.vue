@@ -11,6 +11,7 @@
                 <a class="uk-inline" data-type="image" :href="portf.image" :data-caption="portf.title">
                     <img class="uk-border uk-box-shadow-hover-xlarge" width="300" height="300" :src="portf.image" alt="">
                 </a>
+                <span v-for="(tool, index) in portf.tools" :key="index" class="uk-badge uk-margin-small-right 	">{{ tool }}</span>
                 <p style="font-size: 10pt;">{{ portf.desc }}</p>
                 <button @click="gotoPortfolio(index)" :class="portf.url === 'local' ? 'uk-disabled' : ''" class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">
                   {{ portf.url === 'local' ? 'This app only runs locally!' : 'Check it out!' }}
@@ -37,31 +38,36 @@ export default {
           title: 'SIMA-SP2D',
           image: 'https://gdurl.com/XwSc',
           desc: 'SIMA-SP2D adalah singkatan dari Sistem Manajemen Arsip Surat Perintah Pencairan Dana yang dibangun dengan menggunakan Framework Laravel dan Vue.Js. Sistem ini dilengkapi dengan penggunaan QR-Code untuk identifikasi letak penyimpanan arsip yang berbentuk fisik. Sistem ini merupakan Tugas Akhir (Skripsi) untuk memenuhi syarat memperoleh gelar S.Kom.',
-          url: 'local'
+          url: 'local',
+          tools: ['Laravel', 'VueJs', 'Bootstrap', 'MySql', 'Single Page Application']
         },
         {
           title: 'WARUNG DEWA RAMA',
           image: 'https://gdurl.com/BoJb',
           desc: 'Warung Dewa Rama adalah sebuah restoran yang terletak di daerah lokasi wisata Air Terjun Tegenungan, Gianyar. Melalui website ini diharapkan dapat digunakan sebagai media promosi restoran Warung Dewa Rama. Pelanggan dapat memesan langsung makanan dan paket tour melalui tombol Whatsapp di pojok kanan bawah. Website ini adalah project team yang terdiri dari saya dan dua orang teman saya.',
-          url: 'https://tegenungan-warungdewarama.com'
+          url: 'https://tegenungan-warungdewarama.com',
+          tools: ['Laravel', 'Bootstrap', 'MySql']
         },
         {
           title: 'BUNDA FM (FILE MANAGER)',
           image: 'https://gdurl.com/98m9',
           desc: 'BUNDA FM (FILE MANAGER) adalah sebuah sistem yang dibuat untuk mengelola file yang digunakan untuk proses operasional tiap-tiap unit di RSIA Puri Bunda Denpasar. Sistem ini dilengkapi denga fitur pembatasan kapasitas penyimpanan tiap unit, hak akses dan sistem back-up terhadap file yang dihapus tetapi hanya tersedia selama 30 hari setelah penghapusan.',
-          url: 'local'
+          url: 'local',
+          tools: ['Laravel', 'Bootstrap', 'MySql']
         },
         {
           title: 'DREAM',
           image: 'https://gdurl.com/bOqN',
           desc: 'DREAM (Dokumen Elektronik Rekam Medis) adalah sebuah sistem penyimpanan arsip Rekam Medis Pasien RSIA Puri Bunda. Sistem ini dibuat untuk menyimpan arsip yang berusia 10 Tahun keatas dimana dokumen fisik Rekam Medis Pasien akan di-scan dan di upload pada sistem ini kemudian dilakukan pelenyapan terhadap dokumen fisiknya.',
-          url: 'local'
+          url: 'local',
+          tools: ['Laravel', 'VueJs', 'Bulma CSS', 'MySql', 'Single Page Application']
         },
         {
           title: 'DITYAHERDI',
           image: 'https://gdurl.com/VKh9',
           desc: 'DITYAHERDI adalah personal website yang saya buat secara pribadi untuk menampilkan beberapa informasi mengenai diri saya. Website ini dibuat dibuat menjadi Single Page Application dengan memaksimalkan penggunaan komponen tersembunyi untuk setiap menunya sehingga tampak minimalis namun menampung berbagai macam informasi.',
-          url: 'https://dityaherdi.github.io'
+          url: 'https://dityaherdi.github.io',
+          tools: ['Laravel', 'VueJs', 'Uikit', 'MySql', 'Single Page Application']
         },
       ]
     }
