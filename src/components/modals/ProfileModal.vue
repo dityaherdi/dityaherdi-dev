@@ -21,10 +21,10 @@
                         <li class="answer">I am currently living in Center of Jakarta. But if you need my administrative address, you can find me at Jl. Wibisana Utara Gang Mekar 10A, Pemecutan Kaja, Denpasar, Bali 80118.</li>
                         <hr>
                         <li class="question">Do you have a religion?</li>
-                        <li class="answer">Yes I do. I'm originally Balinese and most of Balinese are Hinduism, so do I and I'm proud with that.</li>
+                        <li class="answer">Yes I do. I'm originally Balinese and most of Balinese are Hinduism, so am I and I'm proud with that.</li>
                         <hr>
                         <li class="question">If you have a free time, what are you doing?</li>
-                        <li class="answer">Traveling, Listen to music, singing (with my bad voice), playing guitar (when I was in Bali, because I left my guitar there 😅), sometimes doing some code or learn something new about programming, playing games, sleeping, and the most important for me is just doing nothing and clam down my feeling then make myself filled by peace 😁.</li>
+                        <li class="answer">Traveling, Listening music, singing (with my bad voice), playing guitar (when I was in Bali, because I left my guitar there 😅), sometimes doing some code or learn something new about programming, playing games, sleeping, and the most important for me is just doing nothing and calm down my feeling then make myself filled by peace 😁.</li>
                         <hr>
                     </ul>
                   </div>
