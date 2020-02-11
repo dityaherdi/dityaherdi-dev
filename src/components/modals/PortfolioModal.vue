@@ -67,7 +67,14 @@ export default {
           image: 'https://gdurl.com/VKh9',
           desc: 'DITYAHERDI adalah personal website yang saya buat secara pribadi untuk menampilkan beberapa informasi mengenai diri saya. Website ini dibuat dibuat menjadi Single Page Application dengan memaksimalkan penggunaan komponen tersembunyi untuk setiap menunya sehingga tampak minimalis namun menampung berbagai macam informasi.',
           url: 'https://dityaherdi.github.io',
-          tools: ['Laravel', 'VueJs', 'Uikit', 'MySql', 'Single Page Application']
+          tools: ['Laravel', 'VueJs', 'Uikit', 'MySql', 'Single Page Application', 'Progressive Web Application']
+        },
+        {
+          title: 'LYFY',
+          image: 'https://gdurl.com/RTZG',
+          desc: 'LYFY adalah sebuah aplikasi pencari lirik untuk pemutar lagu Spotify, LYFY menggunakan Spotify API untuk autentikasi user kemudian melakukan sinkronisasi terhadap lagu yang sedang di putar oleh user kemudian melakukan pencarian dan menampilkan liriknya. Aplikasi ini menerapkan teknologi Progressive Web Application (PWA) sehingga dapat diinstal dan berjalan layaknya aplikasi mobile.',
+          url: 'https://lyfy.my.id',
+          tools: ['VueJs', 'Uikit', 'Vuesax', 'Express', 'Single Page Application', 'Progressive Web Application']
         },
       ]
     }
